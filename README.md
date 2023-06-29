@@ -1,4 +1,4 @@
-# E-Commerce-Backend
+<!-- # E-Commerce-Backend
 The challenge is to build the back end for an e-commerce site.
 
 ## Table Of Content
@@ -64,4 +64,4 @@ Open Insomnia core to run GET, POST, PUT and DELETE routes.
 The application is used to GET data for each route(categories, products, or tags) as well as create, update, and delete data in those routes.
 
 ## License
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) -->

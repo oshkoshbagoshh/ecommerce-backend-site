@@ -64,6 +64,9 @@ nodemon start
 
 ![e-commerce-back-end](./assets/images/image.gif )
 
+### Demo Video
+[walkhtrough-video](https://drive.google.com/file/d/1tLFJ1A-TpsYj8vpFS4V_ASQabPIv7McG/view?usp=sharing)
+
 <!-- ## Credits
 
 List your collaborators, if any, with links to their GitHub profiles.

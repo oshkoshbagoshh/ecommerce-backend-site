@@ -1,4 +1,8 @@
 // import models
+
+// set up the one to one and one to many relationships
+
+
 const Product = require('./Product');
 const Category = require('./Category');
 const Tag = require('./Tag');

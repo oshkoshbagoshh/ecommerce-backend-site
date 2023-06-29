@@ -1,67 +1,101 @@
-<!-- # E-Commerce-Backend
-The challenge is to build the back end for an e-commerce site.
-
-## Table Of Content
-* [General Info](#general-info)
-* [Technologies](#technologies)
-* [Installation](#installation)
-* [Usage](#usage)
-* [License](#license)
+# e-commerce-back-end
 
 
-## General Info
-
-Program is a demonstration of a hypothetical backend for an e-commerce site. The goal of this program is to focus on data handling and manipulation with a relational database. The program uses MySQL2 and Sequelize to connect to a MySQL database and perform CRUD operations. The CRUD operations are specifially performed inside Insomnia core. The program also uses dotenv to store sensitive data such as the MySQL username and password. The program also uses nodemon to automatically restart the server when changes are made to the code.
-
-![Alt text](image.png)
+## Description
 
 
-## Technologies
-* [Javascript](https://www.javascript.com/)
-* [Node.js](https://nodejs.org/en/)
-* [Sequelize](https://www.npmjs.com/package/sequelize)
-* [Insomnia](https://insomnia.rest/)
-* [Nodemon](https://www.npmjs.com/package/nodemon)
-* [MySQL2](https://www.npmjs.com/package/mysql2)
-* [Express](https://www.npmjs.com/package/express)
-* [Dotenv](https://www.npmjs.com/package/dotenv)
+- The goal for this project was to learn as much about back-end routing as we could by taking starter code of an e-commerce site and build out the control flow of data. 
+
+ - This involves verifying that the API endpoints are functioning correctly, and that data can be retrieved, updated, and deleted from the database using the ORM. 
+
+
+- We used node.js to run the server, sequelize to connect to our database, express to set up the server, and dotenv to hide our password and username for our database.
+- We also used Insomnia to test our API routes and make sure they were working correctly.
+- See below for a video of the application in action!
+
+
+
+
+<!-- 
+Provide a short description explaining the what, why, and how of your project. Use the following questions as a guide:
+
+- What was your motivation?
+- Why did you build this project? (Note: the answer is not "Because it was a homework assignment.")
+- What problem does it solve?
+- What did you learn? -->
+
+## Table of Contents (Optional)
+
+If your README is long, add a table of contents to make it easy for users to find what they need.
+
+- [e-commerce-back-end](#e-commerce-back-end)
+  - [Description](#description)
+  - [Table of Contents (Optional)](#table-of-contents-optional)
+  - [Installation](#installation)
+  - [Usage](#usage)
+  - [License](#license)
+  - [Badges](#badges)
+  - [Features](#features)
+  - [How to Contribute](#how-to-contribute)
+  - [Tests](#tests)
 
 ## Installation
-To get started clone this repository using 
-
-```terminal
-git clone https://github.com/TKuhner/Challenge-13-E-Commerce-Back-End.git
-```
-Both Node.js and MySQL must be installed on your computer.
-
-Install dependencies 
-```terminal
-npm i
-``` 
-
-Open up MySQL shell and input 
-
-```terminal
-source ./db/schema.sql
-```
-
-Then quit the MySQL shell.
-
-Next, open up the .env.EXAMPLE file and input your MySQL username and password.
-Then rename the file to .env.
-
-Finally, input the following in your terminal.
-```terminal
-npm run seed
-```
+<!-- 
+What are the steps required to install your project? Provide a step-by-step description of how to get the development environment running. -->
+1. Clone the repo to your local machine using `git clone directory_name`
+2. ```npm install``` to install all dependencies
+3. run mysql -u root -p and enter your password to log into mysql
+4. run ```source db/schema.sql``` to create the database
+5. run ```npm run seed``` to seed the database
+6. openthe .env.EXAMPLE file and input your MySQL username and password.  - ```vim .env.EXAMPLE``` to open the file and then run ```:wq``` to save and exit and then rename the file to .env
+7. Finally, input the following in your terminal. ```terminal npm run seed```
 to start running application simply input 
+
 ```terminal
 nodemon start
 ```
-Open Insomnia core to run GET, POST, PUT and DELETE routes.
+8. Open Insomnia core to run GET, POST, PUT and DELETE routes.
+
+
+---
 
 ## Usage
-The application is used to GET data for each route(categories, products, or tags) as well as create, update, and delete data in those routes.
+
+
+![e-commerce-back-end](./assets/images/image.gif )
+
+<!-- ## Credits
+
+List your collaborators, if any, with links to their GitHub profiles.
+
+If you used any third-party assets that require attribution, list the creators with links to their primary web presence in this section.
+
+If you followed tutorials, include links to those here as well. -->
 
 ## License
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) -->
+<!-- 
+The last section of a high-quality README file is the license. This lets other developers know what they can and cannot do with your project. If you need help choosing a license, refer to [https://choosealicense.com/](https://choosealicense.com/). -->
+- MIT License
+---
+
+🏆
+
+## Badges
+
+![badmath](https://img.shields.io/github/languages/top/lernantino/badmath)
+
+
+
+## Features
+
+If your project has a lot of features, list them here.
+
+## How to Contribute
+
+- Feel free to fork and make pull requests.
+- Contact me if you have any questions after viewing the video
+
+
+## Tests
+- No tests were used for this project (yet)
+

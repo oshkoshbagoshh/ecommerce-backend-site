@@ -1,3 +1,6 @@
+// use the category model to customize the category table in the database
+
+
 const { Model, DataTypes } = require('sequelize');
 
 const sequelize = require('../config/connection.js');

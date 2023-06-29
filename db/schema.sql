@@ -1,4 +1,4 @@
--- CREATE SCHEMA FILE
+-- schema to create database and tables
 
 -- DROP DATABASE
 DROP DATABASE IF EXISTS ecommerce_db;

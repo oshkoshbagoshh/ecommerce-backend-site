@@ -1,3 +1,5 @@
+// set up and export router
+
 const router = require('express').Router();
 const apiRoutes = require('./api');
 
